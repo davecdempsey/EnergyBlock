@@ -9,6 +9,6 @@ public class CornerController : MonoBehaviour {
 	}
 	
 	public void Collision(GameObject collision, GameObject other){
-		print (collision.name + " with id : " + collision.transform.GetInstanceID() + " collided with: " + other.name + " with id : " + other.transform.GetInstanceID());
+		//print (collision.name + " with id : " + collision.transform.GetInstanceID() + " collided with: " + other.name + " with id : " + other.transform.GetInstanceID());
 	}
 }

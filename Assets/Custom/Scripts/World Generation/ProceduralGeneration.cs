@@ -288,7 +288,7 @@ public class ProceduralGeneration : MonoBehaviour {
 
 		bottomIndex -= width;
 
-		//PrintBOTTOMState ();
+		PrintBOTTOMState ();
 	}
 
 	public void RemoveTopPiece(int id, int height, int width){
@@ -322,7 +322,7 @@ public class ProceduralGeneration : MonoBehaviour {
 
 		topIndex -= width;
 
-		//PrintTOPState ();
+		PrintTOPState ();
 	}
 
 	private void PrintTOPState(){
